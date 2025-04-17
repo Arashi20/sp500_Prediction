@@ -1,0 +1,36 @@
+# Python general
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+*/venv/
+.venv/
+*/.venv/
+env/
+*/env/
+.env
+*/.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE folders/files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Data Files (IF LARGE - e.g., > 50-100MB - GitHub has limits)
+# Check your sp500.csv size. If it's large, uncomment the next line:
+# data/sp500.csv
+
+# Model Files (Often large)
+models/
+*.h5
+*.pth
+*.pkl
+*.joblib
+
+# OS specific files
+.DS_Store
+Thumbs.db
