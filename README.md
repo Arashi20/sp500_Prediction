@@ -6,23 +6,6 @@ This project aims to explore historical S&P 500 data and build machine learning 
 
 **Disclaimer:** *Predicting the stock market is inherently complex and high-risk. This project is intended for educational and research purposes only and does not constitute financial advice. Any models developed should not be used for actual trading without thorough validation and understanding of the associated risks.*
 
-## Project Structure
-
-├── data/ # Contains raw and processed data
-│ └── sp500.csv # Historical S&P 500 OHLCV data
-├── models/ # Saved trained models (if any)
-├── notebooks/ # Jupyter notebooks for exploration and modeling
-│ ├── Data_Exploration.ipynb
-│ └── Model_Training.ipynb # (Or similar name for modeling notebook)
-├── src/ # Source code scripts (e.g., for reusable functions)
-│ └── init.py # Makes src a Python package
-│ └── (other .py files like data_acquisition.py, feature_engineering.py - optional)
-├── venv/ # Virtual environment (ignored by Git)
-├── main.py # Potential entry point for running pipelines/inference (optional)
-├── .gitignore # Specifies intentionally untracked files for Git
-├── README.md # This file - project description
-└── requirements.txt # Project dependencies
-
 
 ## Goals
 
