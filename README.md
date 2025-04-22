@@ -45,11 +45,7 @@ The primary dataset is `sp500.csv`, containing daily Open, High, Low, Close, and
 *   **Data Exploration:** Run the `notebooks/Data_Exploration.ipynb` notebook.
 *   **Model Training:** Run the `notebooks/Model_Training.ipynb` notebook.
 
-## Next Steps / To-Do
+## Future Steps
 
-*   Complete feature engineering for ML/DL models.
-*   Implement LSTM model architecture.
-*   Set up proper time series cross-validation.
-*   Train and evaluate the initial model.
-*   Explore adding macroeconomic indicators.
-*   Potentially investigate Transformer models.
+*   Potentially investigate different models.
+*   Try out another feature set
